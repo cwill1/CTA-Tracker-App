@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5169C69209280770092E84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C68209280770092E84B /* AppDelegate.swift */; };
+		D5169C6B209280770092E84B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C6A209280770092E84B /* FirstViewController.swift */; };
+		D5169C6D209280770092E84B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C6C209280770092E84B /* SecondViewController.swift */; };
+		D5169C70209280770092E84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5169C6E209280770092E84B /* Main.storyboard */; };
+		D5169C72209280790092E84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5169C71209280790092E84B /* Assets.xcassets */; };
+		D5169C75209280790092E84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5169C73209280790092E84B /* LaunchScreen.storyboard */; };
+		D5169C80209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C7F209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift */; };
+		D5169C8B209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C8A209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5169C7C209280790092E84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5169C5D209280770092E84B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5169C64209280770092E84B;
+			remoteInfo = Williams_C_IOSCTATransitApp;
+		};
+		D5169C87209280790092E84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5169C5D209280770092E84B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5169C64209280770092E84B;
+			remoteInfo = Williams_C_IOSCTATransitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5169C65209280770092E84B /* Williams_C_IOSCTATransitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Williams_C_IOSCTATransitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5169C68209280770092E84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5169C6A209280770092E84B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D5169C6C209280770092E84B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D5169C6F209280770092E84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5169C71209280790092E84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5169C74209280790092E84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5169C76209280790092E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5169C7B209280790092E84B /* Williams_C_IOSCTATransitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Williams_C_IOSCTATransitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5169C7F209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Williams_C_IOSCTATransitAppTests.swift; sourceTree = "<group>"; };
+		D5169C81209280790092E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5169C86209280790092E84B /* Williams_C_IOSCTATransitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Williams_C_IOSCTATransitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5169C8A209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Williams_C_IOSCTATransitAppUITests.swift; sourceTree = "<group>"; };
+		D5169C8C209280790092E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5169C62209280770092E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C78209280790092E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C83209280790092E84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5169C5C209280770092E84B = {
+			isa = PBXGroup;
+			children = (
+				D5169C67209280770092E84B /* Williams_C_IOSCTATransitApp */,
+				D5169C7E209280790092E84B /* Williams_C_IOSCTATransitAppTests */,
+				D5169C89209280790092E84B /* Williams_C_IOSCTATransitAppUITests */,
+				D5169C66209280770092E84B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5169C66209280770092E84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5169C65209280770092E84B /* Williams_C_IOSCTATransitApp.app */,
+				D5169C7B209280790092E84B /* Williams_C_IOSCTATransitAppTests.xctest */,
+				D5169C86209280790092E84B /* Williams_C_IOSCTATransitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5169C67209280770092E84B /* Williams_C_IOSCTATransitApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5169C68209280770092E84B /* AppDelegate.swift */,
+				D5169C6A209280770092E84B /* FirstViewController.swift */,
+				D5169C6C209280770092E84B /* SecondViewController.swift */,
+				D5169C6E209280770092E84B /* Main.storyboard */,
+				D5169C71209280790092E84B /* Assets.xcassets */,
+				D5169C73209280790092E84B /* LaunchScreen.storyboard */,
+				D5169C76209280790092E84B /* Info.plist */,
+			);
+			path = Williams_C_IOSCTATransitApp;
+			sourceTree = "<group>";
+		};
+		D5169C7E209280790092E84B /* Williams_C_IOSCTATransitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5169C7F209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift */,
+				D5169C81209280790092E84B /* Info.plist */,
+			);
+			path = Williams_C_IOSCTATransitAppTests;
+			sourceTree = "<group>";
+		};
+		D5169C89209280790092E84B /* Williams_C_IOSCTATransitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5169C8A209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift */,
+				D5169C8C209280790092E84B /* Info.plist */,
+			);
+			path = Williams_C_IOSCTATransitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5169C64209280770092E84B /* Williams_C_IOSCTATransitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5169C8F209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitApp" */;
+			buildPhases = (
+				D5169C61209280770092E84B /* Sources */,
+				D5169C62209280770092E84B /* Frameworks */,
+				D5169C63209280770092E84B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Williams_C_IOSCTATransitApp;
+			productName = Williams_C_IOSCTATransitApp;
+			productReference = D5169C65209280770092E84B /* Williams_C_IOSCTATransitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5169C7A209280790092E84B /* Williams_C_IOSCTATransitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5169C92209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitAppTests" */;
+			buildPhases = (
+				D5169C77209280790092E84B /* Sources */,
+				D5169C78209280790092E84B /* Frameworks */,
+				D5169C79209280790092E84B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5169C7D209280790092E84B /* PBXTargetDependency */,
+			);
+			name = Williams_C_IOSCTATransitAppTests;
+			productName = Williams_C_IOSCTATransitAppTests;
+			productReference = D5169C7B209280790092E84B /* Williams_C_IOSCTATransitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5169C85209280790092E84B /* Williams_C_IOSCTATransitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5169C95209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitAppUITests" */;
+			buildPhases = (
+				D5169C82209280790092E84B /* Sources */,
+				D5169C83209280790092E84B /* Frameworks */,
+				D5169C84209280790092E84B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5169C88209280790092E84B /* PBXTargetDependency */,
+			);
+			name = Williams_C_IOSCTATransitAppUITests;
+			productName = Williams_C_IOSCTATransitAppUITests;
+			productReference = D5169C86209280790092E84B /* Williams_C_IOSCTATransitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5169C5D209280770092E84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = DePaul;
+				TargetAttributes = {
+					D5169C64209280770092E84B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D5169C7A209280790092E84B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D5169C64209280770092E84B;
+					};
+					D5169C85209280790092E84B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D5169C64209280770092E84B;
+					};
+				};
+			};
+			buildConfigurationList = D5169C60209280770092E84B /* Build configuration list for PBXProject "Williams_C_IOSCTATransitApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5169C5C209280770092E84B;
+			productRefGroup = D5169C66209280770092E84B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5169C64209280770092E84B /* Williams_C_IOSCTATransitApp */,
+				D5169C7A209280790092E84B /* Williams_C_IOSCTATransitAppTests */,
+				D5169C85209280790092E84B /* Williams_C_IOSCTATransitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5169C63209280770092E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5169C75209280790092E84B /* LaunchScreen.storyboard in Resources */,
+				D5169C72209280790092E84B /* Assets.xcassets in Resources */,
+				D5169C70209280770092E84B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C79209280790092E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C84209280790092E84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5169C61209280770092E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5169C6D209280770092E84B /* SecondViewController.swift in Sources */,
+				D5169C69209280770092E84B /* AppDelegate.swift in Sources */,
+				D5169C6B209280770092E84B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C77209280790092E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5169C80209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5169C82209280790092E84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5169C8B209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5169C7D209280790092E84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5169C64209280770092E84B /* Williams_C_IOSCTATransitApp */;
+			targetProxy = D5169C7C209280790092E84B /* PBXContainerItemProxy */;
+		};
+		D5169C88209280790092E84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5169C64209280770092E84B /* Williams_C_IOSCTATransitApp */;
+			targetProxy = D5169C87209280790092E84B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5169C6E209280770092E84B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5169C6F209280770092E84B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5169C73209280790092E84B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5169C74209280790092E84B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5169C8D209280790092E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5169C8E209280790092E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5169C90209280790092E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5169C91209280790092E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5169C93209280790092E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Williams_C_IOSCTATransitApp.app/Williams_C_IOSCTATransitApp";
+			};
+			name = Debug;
+		};
+		D5169C94209280790092E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Williams_C_IOSCTATransitApp.app/Williams_C_IOSCTATransitApp";
+			};
+			name = Release;
+		};
+		D5169C96209280790092E84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Williams_C_IOSCTATransitApp;
+			};
+			name = Debug;
+		};
+		D5169C97209280790092E84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = Williams_C_IOSCTATransitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CSC-471.Williams-C-IOSCTATransitAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Williams_C_IOSCTATransitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5169C60209280770092E84B /* Build configuration list for PBXProject "Williams_C_IOSCTATransitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5169C8D209280790092E84B /* Debug */,
+				D5169C8E209280790092E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5169C8F209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5169C90209280790092E84B /* Debug */,
+				D5169C91209280790092E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5169C92209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5169C93209280790092E84B /* Debug */,
+				D5169C94209280790092E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5169C95209280790092E84B /* Build configuration list for PBXNativeTarget "Williams_C_IOSCTATransitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5169C96209280790092E84B /* Debug */,
+				D5169C97209280790092E84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5169C5D209280770092E84B /* Project object */;
+}
