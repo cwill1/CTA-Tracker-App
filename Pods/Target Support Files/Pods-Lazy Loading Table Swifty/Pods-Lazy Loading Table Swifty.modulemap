@@ -1,0 +1,6 @@
+framework module Pods_Lazy_Loading_Table_Swifty {
+  umbrella header "Pods-Lazy Loading Table Swifty-umbrella.h"
+
+  export *
+  module * { export * }
+}

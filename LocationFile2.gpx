@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="41.9655" lon="-87.6579">
+        <name>Wilson</name>
+    </wpt>
+    <wpt lat="41.9650" lon="-87.6570">
+    </wpt>
+    <wpt lat="41.9620" lon="-87.6560">
+    </wpt>
+    <wpt lat="41.9580" lon="-87.6555">
+    </wpt>
+    <wpt lat="41.9550" lon="-87.6555">
+    </wpt>
+    <wpt lat="41.9539" lon="-87.6550">
+        <name>Sheridan</name>
+    </wpt>
+    <wpt lat="41.9535" lon="-87.6545">
+    </wpt>
+    <wpt lat="41.9520" lon="-87.6540">
+    </wpt>
+    <wpt lat="41.9500" lon="-87.6535">
+    </wpt>
+    <wpt lat="41.9485" lon="-87.6515">
+    </wpt>
+    <wpt lat="41.9475" lon="-87.6537">
+        <name>Addison</name>
+    </wpt>
+    <wpt lat="41.9470" lon="-87.6536">
+    </wpt>
+    <wpt lat="41.9460" lon="-87.6535">
+    </wpt>
+    <wpt lat="41.9440" lon="-87.6534">
+    </wpt>
+    <wpt lat="41.9420" lon="-87.6534">
+    </wpt>
+    <wpt lat="41.9405" lon="-87.6533">
+    </wpt>
+    <wpt lat="41.9398" lon="-87.6533">
+        <name>Belmont</name>
+    </wpt>
+    <wpt lat="41.9390" lon="-87.6532">
+    </wpt>
+    <wpt lat="41.9370" lon="-87.6531">
+    </wpt>
+    <wpt lat="41.9340" lon="-87.6529">
+    </wpt>
+    <wpt lat="41.9300" lon="-87.6529">
+    </wpt>
+    <wpt lat="41.9275" lon="-87.6529">
+    </wpt>
+    <wpt lat="41.9252" lon="-87.6528">
+        <name>Fullerton</name>
+    </wpt>
+   
+    
+</gpx>

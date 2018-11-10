@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D511C92A20BE2A7000903F7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D511C92920BE2A7000903F7E /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D511C92C20BE2C3400903F7E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511C92B20BE2C3400903F7E /* MapViewController.swift */; };
 		D5169C69209280770092E84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C68209280770092E84B /* AppDelegate.swift */; };
 		D5169C6B209280770092E84B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C6A209280770092E84B /* FirstViewController.swift */; };
 		D5169C6D209280770092E84B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C6C209280770092E84B /* SecondViewController.swift */; };
@@ -15,6 +17,8 @@
 		D5169C75209280790092E84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5169C73209280790092E84B /* LaunchScreen.storyboard */; };
 		D5169C80209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C7F209280790092E84B /* Williams_C_IOSCTATransitAppTests.swift */; };
 		D5169C8B209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5169C8A209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift */; };
+		D518070C2096AA1F0089C88F /* StaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D518070B2096AA1F0089C88F /* StaticViewController.swift */; };
+		D5E151162093CE5C00F4CC52 /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = D5E151152093CE5C00F4CC52 /* Pods */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D50C002120BF845D00EC33E3 /* LocationRoute.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LocationRoute.gpx; sourceTree = "<group>"; };
+		D50C002220BF860700EC33E3 /* LocationRoute.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LocationRoute.gpx; path = Williams_C_IOSCTATransitApp/LocationRoute.gpx; sourceTree = "<group>"; };
+		D50C002320BF9C1800EC33E3 /* LocationFile2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LocationFile2.gpx; sourceTree = "<group>"; };
+		D511C92920BE2A7000903F7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D511C92B20BE2C3400903F7E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D5169C65209280770092E84B /* Williams_C_IOSCTATransitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Williams_C_IOSCTATransitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5169C68209280770092E84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5169C6A209280770092E84B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,8 @@
 		D5169C86209280790092E84B /* Williams_C_IOSCTATransitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Williams_C_IOSCTATransitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5169C8A209280790092E84B /* Williams_C_IOSCTATransitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Williams_C_IOSCTATransitAppUITests.swift; sourceTree = "<group>"; };
 		D5169C8C209280790092E84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D518070B2096AA1F0089C88F /* StaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticViewController.swift; sourceTree = "<group>"; };
+		D5E151152093CE5C00F4CC52 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D511C92A20BE2A7000903F7E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D511C92820BE2A7000903F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D511C92920BE2A7000903F7E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5169C5C209280770092E84B = {
 			isa = PBXGroup;
 			children = (
+				D50C002220BF860700EC33E3 /* LocationRoute.gpx */,
+				D50C002320BF9C1800EC33E3 /* LocationFile2.gpx */,
+				D518070B2096AA1F0089C88F /* StaticViewController.swift */,
+				D5E151152093CE5C00F4CC52 /* Pods */,
 				D5169C67209280770092E84B /* Williams_C_IOSCTATransitApp */,
 				D5169C7E209280790092E84B /* Williams_C_IOSCTATransitAppTests */,
 				D5169C89209280790092E84B /* Williams_C_IOSCTATransitAppUITests */,
 				D5169C66209280770092E84B /* Products */,
+				D511C92820BE2A7000903F7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,8 @@
 				D5169C6A209280770092E84B /* FirstViewController.swift */,
 				D5169C6C209280770092E84B /* SecondViewController.swift */,
 				D5169C6E209280770092E84B /* Main.storyboard */,
+				D511C92B20BE2C3400903F7E /* MapViewController.swift */,
+				D50C002120BF845D00EC33E3 /* LocationRoute.gpx */,
 				D5169C71209280790092E84B /* Assets.xcassets */,
 				D5169C73209280790092E84B /* LaunchScreen.storyboard */,
 				D5169C76209280790092E84B /* Info.plist */,
@@ -234,6 +261,7 @@
 			files = (
 				D5169C75209280790092E84B /* LaunchScreen.storyboard in Resources */,
 				D5169C72209280790092E84B /* Assets.xcassets in Resources */,
+				D5E151162093CE5C00F4CC52 /* Pods in Resources */,
 				D5169C70209280770092E84B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D518070C2096AA1F0089C88F /* StaticViewController.swift in Sources */,
 				D5169C6D209280770092E84B /* SecondViewController.swift in Sources */,
 				D5169C69209280770092E84B /* AppDelegate.swift in Sources */,
+				D511C92C20BE2C3400903F7E /* MapViewController.swift in Sources */,
 				D5169C6B209280770092E84B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
