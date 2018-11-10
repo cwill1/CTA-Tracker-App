@@ -7,7 +7,7 @@ upcoming trains or buses as the user approaches a train or bus station. Imagine 
 you are walking around the loop, every block or so there are new bus or train stations.
 3. Uses the location simulation feature to test the app by creating a simulated route in a
 GPX file. Adds the GPX file to a run scheme in Xcode to test the app.
-4. The app should is robust. When errors or anomalies are encountered during the
+4. The app is robust. When errors or anomalies are encountered during the
 communication or in the data content, it can continue to function to the
 best possible extent by providing appropriate messages, responses, and the best
 available information in the UI. 
